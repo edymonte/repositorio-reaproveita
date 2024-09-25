@@ -15,7 +15,7 @@ jobs:
       needs: [CI]
       uses: edymonte/repositorio-reaproveita/.github/workflows/cd.yml@main
       with:
-        ambiente: producao
+        ambiente: homologacao
       
       
 
